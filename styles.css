@@ -13,6 +13,10 @@ body, a:link, a:visited, a:active{
   padding:5px 12px;
   float:right;
 }
+.lineUp {
+  float: left;
+  padding:5px 12px;
+}
 .topbar{
   height:32px;
   background-color: #555;
@@ -24,4 +28,30 @@ body, a:link, a:visited, a:active{
   border:10px solid red;
   border-radius:10px;
   position:absolute;
+}
+.blinkyDancer {
+  border: 10px solid red;
+  border-radius: 10px;
+  position: absolute;
+}
+.hotDogDancer {
+  position: absolute;
+  height: 55px;
+  width: 55px;
+}
+.growingDancer {
+  border: 10px solid blue;
+  border-radius: 50%;
+  position: absolute;
+}
+.colorDancer {
+  border-width: 10px;
+  border-style: solid;
+  position: absolute;
+  border-radius: 20px;
+}
+.mouseDancer {
+  position: absolute;
+  height: 45px;
+  width: 45px;
 }
